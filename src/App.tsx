@@ -35,9 +35,9 @@ import WorksGridStickyPage from "@/pages/projects/works-grid-sticky/page";
 import NotFoundPage from "@/pages/other-pages/404/page";
 
 const DEFAULT_TITLE =
-  "Preview ||| Azurio - Digital Agency & Personal Portfolio React.Js Template";
+  "A woodworking website for Clayton";
 const DEFAULT_DESCRIPTION =
-  "Azurio - Digital Agency & Personal Portfolio React.Js Template";
+  "a wood working website for Clayton";
 
 type SeoEntry = { title: string; description: string };
 
@@ -51,7 +51,7 @@ const ROUTE_SEO: Record<string, SeoEntry> = {
   },
   "/index-software-development-company": {
     title:
-      "Software Development Company || Azurio - Digital Agency & Personal Portfolio React.JsTemplate",
+      "a wood working website for clayton",
     description: DEFAULT_DESCRIPTION,
   },
   "/index-creative-agency": {

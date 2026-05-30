@@ -139,9 +139,11 @@ export default function Nav({
               <div className="mxd-menu__shadow shadow-top" />
               <div className="mxd-menu__caption">
                 <p ref={headerSlots[2]}>
-                  🦄 Innovative design
+                  Built with care,
                   <br />
-                  and cutting-edge development
+                  attention to detail
+                  <br />
+                  and quality materials
                 </p>
               </div>
               {/* left side */}

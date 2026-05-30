@@ -228,7 +228,10 @@ export default function App() {
       <RouteSEO />
       <ScrollRefreshOnRouteChange />
       <Routes>
-        <Route path="/" element={<PreviewPage />} />
+        <Route
+          path="/"
+          element={<IndexSoftwareDevelopmentCompanyPage />}
+        />
         <Route path="/preview" element={<PreviewPage />} />
         <Route
           path="/index-branding-studio"

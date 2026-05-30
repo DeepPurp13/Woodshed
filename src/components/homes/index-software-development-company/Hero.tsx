@@ -31,7 +31,7 @@ export default function Hero() {
                   className="permanent loading-split"
                   animation="splitLinesLoad"
                 >
-                  Innovative software development company
+                  Custom Woodwoorking made by hand
                 </CommonAnimatedText>
               </Link>
               <div className="mxd-hero-media__small">

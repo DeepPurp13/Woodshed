@@ -699,10 +699,10 @@ export default function Blog() {
                         <div className="social-links-small__divider" />
                         <a
                           className="social-links-small__link"
-                          href="https://github.com/"
+                          href="https://www.facebook.com/profile.php?id=61564405211655&sk=photos"
                           target="_blank"
                         >
-                          <p className="social-links-small__title">Github</p>
+                          <p className="social-links-small__title">Facebook</p>
                           <div className="social-links-small__icon">
                             <i>
                               <svg

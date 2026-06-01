@@ -5230,6 +5230,7 @@ form textarea:required:valid {
 .mxd-header__link {
   width: 3.6rem;
   height: 3.6rem;
+  display: none;
   color: var(--t-bright);
 }
 .mxd-header__link span,
@@ -6606,7 +6607,7 @@ form textarea:required:valid {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 28cqw;
+  font-size: 16cqw;
   line-height: 0.746;
 }
 .fw-mark__content span {
@@ -6629,7 +6630,7 @@ form textarea:required:valid {
   color: var(--t-opp-bright);
 }
 .fw-mark__content.small {
-  font-size: 19.3cqw;
+  font-size: 16cqw;
 }
 .fw-mark__content.small span {
   letter-spacing: -0.2cqw;
@@ -6638,7 +6639,7 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 992px) {
   .fw-mark__content {
-    font-size: 28cqw;
+    font-size: 16cqw;
   }
 }
 
@@ -10091,7 +10092,7 @@ form textarea:required:valid {
 }
 .mxd-hero-09__headline h1 {
   font-size: 14cqw;
-  font-size: clamp(1.6rem, 13cqw, 27rem);
+  font-size: clamp(1.6rem, 16cqw, 27rem);
   line-height: 0.746;
   font-style: normal;
   font-weight: 500;
@@ -10112,7 +10113,7 @@ form textarea:required:valid {
     padding-top: 20rem;
   }
   .mxd-hero-09__headline h1 {
-    font-size: clamp(1.6rem, 13cqw, 27rem);
+    font-size: clamp(1.6rem, 16cqw, 27rem);
   }
 }
 @media only screen and (min-width: 1200px) {

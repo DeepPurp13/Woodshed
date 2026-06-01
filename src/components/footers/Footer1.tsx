@@ -181,7 +181,7 @@ export default function Footer1() {
                         as="p"
                         animation="slideDownLine"
                       >
-                        <span>/ More by IB Themes</span>
+                        <span>/ MoonValley</span>
                       </CommonScrollAnimated>
                     </div>
                     <div className="mxd-footer-nav02__list">
@@ -268,7 +268,7 @@ export default function Footer1() {
                   className="anim-uni-chars"
                   animation="animChars"
                 >
-                  IBThemes
+                  MoonValley
                 </CommonAnimatedText>
               </a>
             </div>
@@ -341,7 +341,7 @@ export default function Footer1() {
                                 target="_blank"
                               >
                                 <TextScramble className="mxd-scramble">
-                                  IB Themes
+                                  MoonValley
                                 </TextScramble>
                               </a>
                             </span>

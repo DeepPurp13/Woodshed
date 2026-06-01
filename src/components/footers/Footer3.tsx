@@ -8,7 +8,7 @@ import TextScramble from "@/components/animations/TextScramble";
 import FooterBackToTop from "@/components/footers/FooterBackToTop";
 import { footer3PrimaryLinks } from "@/data/footerNavVariants";
 
-export default function Footer3({ name = "Azurio" }: { name?: string }) {
+export default function Footer3({ name = "Moon Valley" }: { name?: string }) {
   return (
     <BlurSection as="footer" className="mxd-footer">
       <div className="mxd-container grid-l-container">
@@ -48,7 +48,7 @@ export default function Footer3({ name = "Azurio" }: { name?: string }) {
                     animation="slideDownLine"
                   >
                     <TextScramble className="mxd-scramble">
-                      hello@azurio.com
+                      clayton@moonvalley.com
                     </TextScramble>
                   </CommonScrollAnimated>
                 </p>
@@ -60,7 +60,7 @@ export default function Footer3({ name = "Azurio" }: { name?: string }) {
                     animation="slideDownLine"
                   >
                     <TextScramble className="mxd-scramble">
-                      +1 212-708-9400
+                      +1 808-420-6969
                     </TextScramble>
                   </CommonScrollAnimated>
                 </p>
@@ -69,7 +69,7 @@ export default function Footer3({ name = "Azurio" }: { name?: string }) {
                   as="p"
                   animation="slideDownLine"
                 >
-                  <span>11 West 53 Street, New York, NY 10019</span>
+                  <span>11 West 53 Street, Hardin, KY 10019</span>
                 </CommonScrollAnimated>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function Footer3({ name = "Azurio" }: { name?: string }) {
                   animation="slideDownLine"
                 >
                   <span className="mxd-slide-down">
-                    Copyright Azurio. All rights reserved
+                    Moon Valley . All rights reserved
                   </span>
                 </CommonScrollAnimated>
                 <CommonScrollAnimated

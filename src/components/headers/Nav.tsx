@@ -76,9 +76,9 @@ export default function Nav({
 
   const headerSlots = useMemo(() => makeSlotters(g.headerSplitTargets, 3), [g]);
   const mainSlots = useMemo(() => makeSlotters(g.mainMenuLinkSpans, 10), [g]);
-  const contactSlots = useMemo(() => makeSlotters(g.contactAnchors, 8), [g]);
+  const contactSlots = useMemo(() => makeSlotters(g.contactAnchors, 4), [g]);
   const contactRevealSlots = useMemo(
-    () => makeSlotters(g.contactRevealTargets, 8),
+    () => makeSlotters(g.contactRevealTargets, 4),
     [g],
   );
   const footerSlots = useMemo(() => makeSlotters(g.footerSplitTargets, 4), [g]);
@@ -206,7 +206,7 @@ export default function Nav({
                               ref={mainSlots[3]}
                               className="main-menu__caption"
                             >
-                              Works
+                              Recent projects
                             </span>
                           </p>
                           <div ref={arrowSlots[1]} className="main-menu__arrow">
@@ -242,7 +242,7 @@ export default function Nav({
                               ref={mainSlots[5]}
                               className="main-menu__caption"
                             >
-                              Pages
+                              The process
                             </span>
                           </p>
                           <div ref={arrowSlots[2]} className="main-menu__arrow">
@@ -278,7 +278,7 @@ export default function Nav({
                               ref={mainSlots[7]}
                               className="main-menu__caption"
                             >
-                              Insights
+                              about us
                             </span>
                           </p>
                           <div ref={arrowSlots[3]} className="main-menu__arrow">
@@ -341,7 +341,7 @@ export default function Nav({
                             ref={contactRevealSlots[0]}
                             className="mxd-scramble"
                           >
-                            hello@azurio.com
+                            claytonsemail@gmail.com
                           </TextScramble>
                         </a>
                       </li>
@@ -373,7 +373,7 @@ export default function Nav({
                           <span ref={contactRevealSlots[2]}>
                             11 West 53 Street,
                             <br />
-                            New York, NY
+                            Hardin country, KY
                             <br />
                             10019
                           </span>
@@ -387,74 +387,14 @@ export default function Nav({
                         <a
                           ref={contactSlots[3]}
                           className="tag tag-m"
-                          href="https://dribbble.com/"
+                          href="https://www.facebook.com/profile.php?id=61564405211655"
                           target="_blank"
                         >
                           <TextScramble
                             ref={contactRevealSlots[3]}
                             className="mxd-scramble"
                           >
-                            Dribbble
-                          </TextScramble>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          ref={contactSlots[4]}
-                          className="tag tag-m"
-                          href="https://www.behance.net/"
-                          target="_blank"
-                        >
-                          <TextScramble
-                            ref={contactRevealSlots[4]}
-                            className="mxd-scramble"
-                          >
-                            Behance
-                          </TextScramble>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          ref={contactSlots[5]}
-                          className="tag tag-m"
-                          href="https://github.com/"
-                          target="_blank"
-                        >
-                          <TextScramble
-                            ref={contactRevealSlots[5]}
-                            className="mxd-scramble"
-                          >
-                            Github
-                          </TextScramble>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          ref={contactSlots[6]}
-                          className="tag tag-m"
-                          href="https://www.figma.com/community"
-                          target="_blank"
-                        >
-                          <TextScramble
-                            ref={contactRevealSlots[6]}
-                            className="mxd-scramble"
-                          >
-                            Figma Community
-                          </TextScramble>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          ref={contactSlots[7]}
-                          className="tag tag-m"
-                          href="https://codepen.io/"
-                          target="_blank"
-                        >
-                          <TextScramble
-                            ref={contactRevealSlots[7]}
-                            className="mxd-scramble"
-                          >
-                            Codepen
+                            Facebook
                           </TextScramble>
                         </a>
                       </li>
@@ -483,14 +423,14 @@ export default function Nav({
                       target="_blank"
                     >
                       <TextScramble className="mxd-scramble">
-                        IB Themes
+                        Moon Valley
                       </TextScramble>
                     </a>
                   </p>
                 </div>
                 <div className="menu-data__right">
                   <p ref={footerSlots[2]} className="menu-data__text">
-                    Copyright Azurio
+                    Copyright Moon Valley
                   </p>
                   <p ref={footerSlots[3]} className="menu-data__text">
                     ©{new Date().getFullYear()}

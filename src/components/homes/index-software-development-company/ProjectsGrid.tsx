@@ -47,9 +47,9 @@ export default function ProjectsGrid() {
                             className="mxd-split-lines"
                             animation="splitLines"
                           >
-                            Featured case
+                            Every peace
                             <br />
-                            studies
+                            built to last
                           </CommonAnimatedText>
                         </Link>
                       </div>
@@ -110,7 +110,7 @@ export default function ProjectsGrid() {
                             className="project-name-s"
                             to={`/project-details`}
                           >
-                            Illustrations set
+                            Walnut TV Stand
                           </Link>
                         </div>
                         <div className="mxd-project-item__tags">
@@ -175,7 +175,7 @@ export default function ProjectsGrid() {
                             className="project-name-s"
                             to={`/project-details`}
                           >
-                            Interactive concept
+                            Hardwood Desks
                           </Link>
                         </div>
                         <div className="mxd-project-item__tags">
@@ -242,7 +242,7 @@ export default function ProjectsGrid() {
                             className="project-name-s"
                             to={`/project-details`}
                           >
-                            Creative studio template
+                            Functional Cabinets
                           </Link>
                         </div>
                         <div className="mxd-project-item__tags">
@@ -314,7 +314,7 @@ export default function ProjectsGrid() {
                             className="project-name-s"
                             to={`/project-details`}
                           >
-                            Interactive concept
+                            Custom Cabinetry
                           </Link>
                         </div>
                         <div className="mxd-project-item__tags">
@@ -381,7 +381,7 @@ export default function ProjectsGrid() {
                             className="project-name-s"
                             to={`/project-details`}
                           >
-                            Interactive concept
+                            Kitchen Islands
                           </Link>
                         </div>
                         <div className="mxd-project-item__tags">
@@ -453,7 +453,7 @@ export default function ProjectsGrid() {
                             className="project-name-s"
                             to={`/project-details`}
                           >
-                            Interactive concept
+                            Fireplace Cabinet
                           </Link>
                         </div>
                         <div className="mxd-project-item__tags">

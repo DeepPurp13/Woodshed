@@ -36,10 +36,9 @@ export default function StatisticsLines() {
                           className="manifest manifest-s mxd-split-lines active-cursor-accent"
                           animation="splitLines"
                         >
-                          From pixel-perfect designs to flawless code,{" "}
+                          Handmade from quality hardwoods, professionally made {" "}
                           <span>
-                            every aspect of our projects is crafted with care to
-                            ensure the highest standards of quality.
+                            in Hardin County, KY.
                           </span>
                         </CommonAnimatedText>
                       </Link>

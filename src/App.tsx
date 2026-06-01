@@ -8,16 +8,8 @@ import TemplateRuntimeProvider from "@/components/common/TemplateRuntimeProvider
 import Header1 from "@/components/headers/Header1";
 import MenuRuntimeShell from "@/components/headers/MenuRuntimeShell";
 import PreviewPage from "@/pages/preview/page";
-import IndexBrandingStudioPage from "@/pages/homes/index-branding-studio/page";
 import IndexSoftwareDevelopmentCompanyPage from "@/pages/homes/index-software-development-company/page";
-import IndexCreativeAgencyPage from "@/pages/homes/index-creative-agency/page";
-import IndexFreelancerPortfolioPage from "@/pages/homes/index-freelancer-portfolio/page";
-import IndexDesignStudioPage from "@/pages/homes/index-design-studio/page";
-import IndexWebDeveloperPage from "@/pages/homes/index-web-developer/page";
-import IndexPersonalPortfolioPage from "@/pages/homes/index-personal-portfolio/page";
-import IndexDigitalAgencyPage from "@/pages/homes/index-digital-agency/page";
-import IndexWebStudioPage from "@/pages/homes/index-web-studio/page";
-import IndexDigitalDesignerPage from "@/pages/homes/index-digital-designer/page";
+
 import BlogArticlePage from "@/pages/blogs/blog-article/page";
 import BlogCreativePage from "@/pages/blogs/blog-creative/page";
 import BlogStandardPage from "@/pages/blogs/blog-standard/page";
@@ -44,11 +36,6 @@ type SeoEntry = { title: string; description: string };
 const ROUTE_SEO: Record<string, SeoEntry> = {
   "/": { title: DEFAULT_TITLE, description: DEFAULT_DESCRIPTION },
   "/preview": { title: DEFAULT_TITLE, description: DEFAULT_DESCRIPTION },
-  "/index-branding-studio": {
-    title:
-      "Branding Studio || Azurio - Digital Agency & Personal Portfolio React.JsTemplate",
-    description: DEFAULT_DESCRIPTION,
-  },
   "/index-software-development-company": {
     title:
       "a wood working website for clayton",
@@ -228,48 +215,18 @@ export default function App() {
       <RouteSEO />
       <ScrollRefreshOnRouteChange />
       <Routes>
+        {/* This is my Landing page */}
         <Route
           path="/"
           element={<IndexSoftwareDevelopmentCompanyPage />}
         />
         <Route path="/preview" element={<PreviewPage />} />
-        <Route
-          path="/index-branding-studio"
-          element={<IndexBrandingStudioPage />}
-        />
+
         <Route
           path="/index-software-development-company"
           element={<IndexSoftwareDevelopmentCompanyPage />}
         />
-        <Route
-          path="/index-creative-agency"
-          element={<IndexCreativeAgencyPage />}
-        />
-        <Route
-          path="/index-freelancer-portfolio"
-          element={<IndexFreelancerPortfolioPage />}
-        />
-        <Route
-          path="/index-design-studio"
-          element={<IndexDesignStudioPage />}
-        />
-        <Route
-          path="/index-web-developer"
-          element={<IndexWebDeveloperPage />}
-        />
-        <Route
-          path="/index-personal-portfolio"
-          element={<IndexPersonalPortfolioPage />}
-        />
-        <Route
-          path="/index-digital-agency"
-          element={<IndexDigitalAgencyPage />}
-        />
-        <Route path="/index-web-studio" element={<IndexWebStudioPage />} />
-        <Route
-          path="/index-digital-designer"
-          element={<IndexDigitalDesignerPage />}
-        />
+
         <Route path="/about-me" element={<AboutMePage />} />
         <Route path="/about-us" element={<AboutUsPage />} />
         <Route path="/contact" element={<ContactPage />} />

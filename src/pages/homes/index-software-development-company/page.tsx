@@ -1,32 +1,27 @@
-import Footer2 from "@/components/footers/Footer2";
+import Footer3 from "@/components/footers/Footer3";
 import Hero from "@/components/homes/index-software-development-company/Hero";
-import StatisticsLines from "@/components/homes/index-software-development-company/StatisticsLines";
-import NicheCards from "@/components/homes/index-software-development-company/NicheCards";
-import OurCapabilities from "@/components/homes/index-software-development-company/OurCapabilities";
 import ParallaxDividerImage from "@/components/homes/index-software-development-company/ParallaxDividerImage";
 import ProjectsGrid from "@/components/homes/index-software-development-company/ProjectsGrid";
 import ParallaxDividerImage2 from "@/components/homes/index-software-development-company/ParallaxDividerImage2";
-import TechStackList from "@/components/homes/index-software-development-company/TechStackList";
 import ParallaxDividerImage3 from "@/components/homes/index-software-development-company/ParallaxDividerImage3";
-import BlogPreview from "@/components/homes/index-software-development-company/BlogPreview";
 import CTA from "@/components/homes/index-software-development-company/CTA";
+import BlogPreview from "@/components/homes/index-software-development-company/BlogPreview";
+
 export default function IndexSoftwareDevelopmentCompanyPage() {
   return (
     <>
       <>
-        <Hero />
-        <StatisticsLines />
-        <NicheCards />
-        <OurCapabilities />
-        <ParallaxDividerImage />
-        <ProjectsGrid />
-        <ParallaxDividerImage2 />
-        <TechStackList />
-        <ParallaxDividerImage3 />
-        <BlogPreview />
-        <CTA />
+      <Hero />
+        {/* This is the proff as a gallery */}
+      <ProjectsGrid />
+      <ParallaxDividerImage />
+        {/* This is the proccess/how it works */}
+      <BlogPreview />
+      <ParallaxDividerImage2 />
+      <ParallaxDividerImage3 />
+      <CTA />
       </>
-      <Footer2 />
+      <Footer3 />
     </>
   );
 }

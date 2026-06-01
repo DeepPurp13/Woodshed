@@ -45,9 +45,9 @@ export default function BlogPreview() {
                             className="mxd-split-lines"
                             animation="splitLines"
                           >
-                            Recent
+                            My 
                             <br />
-                            insights
+                            proccess
                           </CommonAnimatedText>
                         </Link>
                       </div>

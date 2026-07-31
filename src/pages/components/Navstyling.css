@@ -1,0 +1,35 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: none;
+    color: black;
+    font-family: Helvetica;
+    font-weight: 300;
+}
+
+.navbar__title {
+    padding: 1% 0px 0px 5%;
+    margin-right: auto;
+    font-size: 700%;
+    font-family: fangsong;
+}
+
+.navbar__item {
+    cursor: pointer;
+    vertical-align: middle;
+}
+.link {
+    padding: 4% 5% 0% 0%;
+    font-size: 175%;
+    font-style: bold;
+}
+@media (max-width: 600px) {
+    .link {
+        display: none;
+    }
+    .navbar__item {
+    padding: 0%;
+    text-align: center;
+    }
+}

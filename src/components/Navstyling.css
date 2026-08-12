@@ -10,7 +10,7 @@
 
 .navbar__title {
     padding: 1% 0px 0px 5%;
-    margin-right: auto;
+    margin-right: 20%;
     font-size: 700%;
     font-family: fangsong;
 }
@@ -20,8 +20,8 @@
     vertical-align: middle;
 }
 .link {
-    padding: 4% 5% 0% 0%;
-    font-size: 175%;
+    padding: 4% 4% 0% 0%;
+    font-size: 275%;
     font-style: bold;
 }
 @media (max-width: 600px) {
@@ -32,4 +32,19 @@
     padding: 0%;
     text-align: center;
     }
+    .navbar__title {
+        margin-right: 0;
+    }
+}
+.navbar__title img {
+    width: 100%;
+}
+a:link {
+  color: black; /* Default link color */
+  text-decoration: none;
+}
+
+a:visited {
+  color: black; /* Keeps color the same after clicking */
+  text-decoration: none;
 }
